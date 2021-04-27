@@ -13,3 +13,7 @@ I've read that there is an option to change the system time of robolectric's run
 here: https://stackoverflow.com/questions/27803690/robolectric-how-can-i-set-time-that-i-want-the-calendar-class-returns
 So I believe this is a good option to advance the time to 19 sec and 800 ms right after clicking the
 button.
+
+---
+"I pledge the highest level of ethical principles in support of academic excellence.  I ensure that all of my work reflects my own abilities and not those of someone else."
+
