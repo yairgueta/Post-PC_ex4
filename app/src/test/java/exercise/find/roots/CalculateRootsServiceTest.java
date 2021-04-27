@@ -1,6 +1,11 @@
 package exercise.find.roots;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.os.SystemClock;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
 
 import junit.framework.TestCase;
 
@@ -10,8 +15,10 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.annotation.Config;
+import org.robolectric.shadows.ShadowSystemClock;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static org.robolectric.Shadows.shadowOf;
 

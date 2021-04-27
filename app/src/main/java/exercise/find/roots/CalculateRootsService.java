@@ -33,7 +33,6 @@ public class CalculateRootsService extends IntentService {
         break;
       }
       if (i % CHECK_FACTOR == 0){
-        System.out.println(System.currentTimeMillis() - timeStartMs);
         if (System.currentTimeMillis() - timeStartMs > 20 * 1000){
           root = -1;
           break;

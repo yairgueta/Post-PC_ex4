@@ -13,6 +13,11 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
+import org.robolectric.shadows.ShadowSystemClock;
+import org.w3c.dom.ls.LSOutput;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(sdk = 28)
@@ -138,6 +143,8 @@ public class MainActivityTest extends TestCase {
 
     assertEquals(input, inputEditText.getText().toString());
   }
+
+
 
   // TODO: add 1 or 2 more unit tests to the activity. so your "writing tests" skill won't get rusty.
   //  possible flows to unit-test:
